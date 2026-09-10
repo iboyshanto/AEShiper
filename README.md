@@ -10,7 +10,7 @@ Download the latest signed `AEShiper-vX.Y.Z.zxp` and its `.sha256` file from Git
 
 ### Figma
 
-For normal daily use, install AEShiper from Figma Community. Figma distributes published plugin updates automatically. The GitHub `AEShiper-Figma-vX.Y.Z.zip` asset is intended for development/test installation and archival access.
+Install [AEShiper from Figma Community](https://www.figma.com/community/plugin/1678017504586586252/aeshiper). The plugin is free. Figma distributes published plugin updates automatically.
 
 ## Privacy and networking
 
