@@ -2,16 +2,16 @@
   "schemaVersion": 1,
   "product": "AEShiper",
   "status": "stable",
-  "latestVersion": "1.0.5",
-  "publishedAt": "2026-09-15T08:03:44Z",
-  "releaseUrl": "https://github.com/iboyshanto/AEShiper/releases/tag/v1.0.5",
+  "latestVersion": "1.0.4",
+  "publishedAt": "2026-09-15T07:52:56Z",
+  "releaseUrl": "https://github.com/iboyshanto/AEShiper/releases/tag/v1.0.4",
   "ae": {
-    "version": "1.0.5",
-    "assetName": "AEShiper-v1.0.5.zxp",
-    "downloadUrl": "https://github.com/iboyshanto/AEShiper/releases/download/v1.0.5/AEShiper-v1.0.5.zxp"
+    "version": "1.0.4",
+    "assetName": "AEShiper-v1.0.4.zxp",
+    "downloadUrl": "https://github.com/iboyshanto/AEShiper/releases/download/v1.0.4/AEShiper-v1.0.4.zxp"
   },
   "figma": {
-    "version": "1.0.5",
+    "version": "1.0.4",
     "downloadUrl": "https://www.figma.com/community/plugin/1678017504586586252/aeshiper",
     "communityUrl": "https://www.figma.com/community/plugin/1678017504586586252/aeshiper"
   }
