@@ -4,7 +4,9 @@ Transfer selected Figma designs into Adobe After Effects as editable layers, org
 
 ## Install and activate
 
-Download the signed **AEShiper 1.0.6 ZXP** and checksum from [GitHub Releases](https://github.com/iboyshanto/AEShiper/releases). Install with a compatible CEP ZXP installer, restart After Effects, and open **Window > Extensions > AEShiper** to activate your license. AEShiper checks your license online at each AE launch.
+Download the signed **AEShiper 1.0.7 ZXP** and checksum from [GitHub Releases](https://github.com/iboyshanto/AEShiper/releases). Install with a compatible CEP ZXP installer, restart After Effects, and open **Window > Extensions > AEShiper** to activate your license. AEShiper checks your license online at each AE launch.
+
+Version 1.0.7 adds Design scale presets and custom 1×–8× multipliers, independent PNG density and compact quick settings. Original Figma artwork stays unchanged. Automated transport and isolated AE scale checks passed; complete real-scene scale fidelity remains unverified.
 
 Install the companion from [Figma Community](https://www.figma.com/community/plugin/1678017504586586252/aeshiper). The Figma plugin download is free; shipping to AE requires an activated AEShiper license.
 
