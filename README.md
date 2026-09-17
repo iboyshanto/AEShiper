@@ -4,9 +4,9 @@ Transfer selected Figma designs into Adobe After Effects as editable layers, org
 
 ## Install and activate
 
-Download the signed **AEShiper 1.0.7 ZXP** and checksum from [GitHub Releases](https://github.com/iboyshanto/AEShiper/releases). Install with a compatible CEP ZXP installer, restart After Effects, and open **Window > Extensions > AEShiper** to activate your license. AEShiper checks your license online at each AE launch.
+Download the signed **AEShiper 1.0.8 ZXP** and checksum from [GitHub Releases](https://github.com/iboyshanto/AEShiper/releases). Install with a compatible CEP ZXP installer, restart After Effects, and open **Window > Extensions > AEShiper** to activate your license. AEShiper checks your license online at each AE launch.
 
-Version 1.0.7 adds Design scale presets and custom 1×–8× multipliers, independent PNG density and compact quick settings. Original Figma artwork stays unchanged. Automated transport and isolated AE scale checks passed; complete real-scene scale fidelity remains unverified.
+Version 1.0.8 fixes activated-license transfer failures and inconsistent license status. Licensing uses the CEP runtime and system networking tools, with no bundled native networking executable. Older licensed companions keep supported transfers at 1× Design scale; the Figma plugin automatically resets unsupported saved scale settings. Design scale 1×–8× remains available on capable companions.
 
 Install the companion from [Figma Community](https://www.figma.com/community/plugin/1678017504586586252/aeshiper). The Figma plugin download is free; shipping to AE requires an activated AEShiper license.
 
@@ -24,4 +24,4 @@ Artwork, layer data and asset paths stay on your computer through the local 127.
 
 ## Compatibility
 
-Locally verified on macOS with After Effects Beta. The package includes Intel/Apple silicon and Windows licensing helpers; Windows and clean-machine installation remain unverified. The macOS helper is ad-hoc signed and Windows helpers are unsigned, so OS or firewall policy may require local approval.
+Locally verified on macOS with After Effects Beta: online renewal, unlicensed transfer rejection, activated panel status and a real Figma shipment. No bundled native executable needs Gatekeeper approval. Windows, clean-machine installation and operation under a configured Adobe firewall block remain unverified. Older companion bugs require installing the fixed companion; compatibility does not repair already-installed code.
