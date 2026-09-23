@@ -6,7 +6,7 @@ Bring Figma designs into Adobe After Effects as editable layers, organized preco
 
 Get the [AEShiper Figma plugin](https://www.figma.com/community/plugin/1678017504586586252/aeshiper) from Community. Download the matching **After Effects installer for your computer** from [the latest release](https://github.com/iboyshanto/AEShiper/releases/latest):
 
-- **macOS:** open the DMG and run the included PKG. This installer is not Apple Developer ID signed or notarized, so macOS may require per-item approval in Privacy & Security.
+- **macOS:** save your project, fully quit every After Effects version, then open the DMG and run the included PKG. If the installer reports that AE is running, quit AE and reopen the PKG. This installer is not Apple Developer ID signed or notarized, so macOS may require per-item approval in Privacy & Security.
 - **Windows x64:** run the Windows x64 EXE. It is currently unsigned, so Windows SmartScreen may show an unrecognized-app warning. A Windows ARM64 installer is still being tested and is not part of this stable release.
 
 Save your AE project and quit After Effects before installing. The installer places the AEShiper companion, AEShiper Glass and AEShiper Paste together. Restart AE and open **Window > Extensions > AEShiper** to activate or manage your license. Users updating from a ZXP installation should use the platform installer; they do not need a separate ZXP step.
