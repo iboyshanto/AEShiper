@@ -1,29 +1,31 @@
 # AEShiper
 
-Transfer selected Figma designs into Adobe After Effects as editable layers, organized precomps, raster assets, or a reference PNG.
+Bring Figma designs into Adobe After Effects as editable layers, organized precomps, raster assets, or a visual reference.
 
-## Install and activate
+## Install AEShiper 1.1.0
 
-Download the signed **AEShiper 1.0.9 ZXP** and checksum from [GitHub Releases](https://github.com/iboyshanto/AEShiper/releases). Install with a compatible CEP ZXP installer, restart After Effects, and open **Window > Extensions > AEShiper** to activate your license. AEShiper checks your license online at each AE launch.
+Get the [AEShiper Figma plugin](https://www.figma.com/community/plugin/1678017504586586252/aeshiper) from Community. Download the matching **After Effects installer for your computer** from [the latest release](https://github.com/iboyshanto/AEShiper/releases/latest):
 
-Version 1.0.9 preserves outside gradient strokes on clipped frames, reduces text-creation overhead in AE, and reduces repeated Figma API reads during export. One tested scene improved from 53.7 to 45.5 seconds; timings vary by scene and AE session. Install both updates for the complete fix.
+- **macOS:** open the DMG and run the included PKG. This installer is not Apple Developer ID signed or notarized, so macOS may require per-item approval in Privacy & Security.
+- **Windows x64:** run the Windows x64 EXE. It is currently unsigned, so Windows SmartScreen may show an unrecognized-app warning. A Windows ARM64 installer is still being tested and is not part of this stable release.
 
-Licensing uses the CEP runtime and system networking tools, with no bundled native networking executable. Older licensed companions keep supported transfers at 1× Design scale; the Figma plugin automatically resets unsupported saved scale settings. Design scale 1×–8× remains available on capable companions.
+Save your AE project and quit After Effects before installing. The installer places the AEShiper companion, AEShiper Glass and AEShiper Paste together. Restart AE and open **Window > Extensions > AEShiper** to activate or manage your license. Users updating from a ZXP installation should use the platform installer; they do not need a separate ZXP step.
 
-Install the companion from [Figma Community](https://www.figma.com/community/plugin/1678017504586586252/aeshiper). The Figma plugin download is free; shipping to AE requires an activated AEShiper license.
+## What's new
 
-## Purchase
+- Improved glass edges, inner shadows and clipping in editable shipments.
+- More stable Texture approximation: contained surfaces and no frame-to-frame procedural Noise flicker in the tested scene.
+- AEShiper Paste imports copied images, self-contained SVG, supported media files and GIF/SVG links into AE. Media and codec support depends on the installed AE version; SVG-to-shapes is available where supported.
+- Native installers include the companion and its Glass/Paste components in one download.
 
-Visit [AEShiper](https://aeshiper.com) to sign in and request a one-time license. Current price: **799 BDT**. Send money to bKash **01646782474**, upload your payment screenshot, and wait for owner approval. Your approved license appears in your account dashboard. One active device per license.
+See the [visual update overview](https://aeshiper.com/#new) and [copy-and-paste examples](https://aeshiper.com/#paste). These are illustrated workflows, not a pixel-exact promise for every Figma effect.
+
+## License and privacy
+
+Visit [AEShiper](https://aeshiper.com) to purchase or manage a license. The Figma plugin installs free; shipping to AE requires an activated license. AEShiper checks its license online at AE launch.
+
+Artwork, layer data and asset paths stay on your computer through the local `127.0.0.1` bridge. License and device authorization metadata goes to AEShiper's backend. Update checks read this repository's `release.json`. No artwork uploads or analytics.
 
 ## Updates
 
-New stable releases show an AE update card and a dismissible Figma notification. Download the ZXP, save and close AE, install it with your ZXP installer, then reopen AE. Apple Developer enrollment is not required. Figma distributes published plugin updates through Community.
-
-## Privacy
-
-Artwork, layer data and asset paths stay on your computer through the local 127.0.0.1 bridge. License/device authorization metadata goes to the AEShiper backend. Update checks read this repository's release.json. No artwork uploads or analytics. Account and payment-proof submission happens on the website.
-
-## Compatibility
-
-Locally verified on macOS with After Effects Beta: online renewal, unlicensed transfer rejection, activated panel status and a real Figma shipment. No bundled native executable needs Gatekeeper approval. Windows, clean-machine installation and operation under a configured Adobe firewall block remain unverified. Older companion bugs require installing the fixed companion; compatibility does not repair already-installed code.
+Stable releases appear in the AE update card and Figma update notice. Save and quit AE, download the platform installer, then reopen AE. Figma plugin updates are distributed through Community.
