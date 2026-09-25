@@ -11,8 +11,8 @@
     "installers": {
       "mac": {
         "url": "https://github.com/iboyshanto/AEShiper/releases/download/v1.1.1/AEShiper-v1.1.1.pkg",
-        "size": 270894,
-        "sha256": "f56b7a846562dc6fca095c23d3387df18fddcf446f29d6a8078bcaaab3ef6dde"
+        "size": 271141,
+        "sha256": "5b248851225f6ad9b4e4ef379d36c054a76f80343465d7ac67903b89059212d7"
       },
       "windowsX64": {
         "url": "https://github.com/iboyshanto/AEShiper/releases/download/v1.1.1/AEShiper-v1.1.1-Windows-x64.exe",
