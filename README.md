@@ -1,24 +1,37 @@
 # AEShiper
 
-Bring Figma designs into Adobe After Effects as editable layers, organized precomps, raster assets, or a visual reference.
+Bring Figma and supported Illustrator designs into Adobe After Effects as editable layers, organized precomps, raster assets, or a visual reference.
 
-## Install AEShiper 1.1.1
+## Install AEShiper 1.2.0
 
 Get the [AEShiper Figma plugin](https://www.figma.com/community/plugin/1678017504586586252/aeshiper) from Community. Download the matching **After Effects installer for your computer** from [the latest release](https://github.com/iboyshanto/AEShiper/releases/latest):
 
-- **macOS:** save your project, fully quit every After Effects version, then open the DMG and run the included PKG. If the installer reports that AE is running, quit AE and reopen the PKG. This installer is not Apple Developer ID signed or notarized, so macOS may require per-item approval in Privacy & Security.
+- **macOS:** save your project, fully quit After Effects and Illustrator, then open the DMG and run the included PKG. If the installer reports that AE is running, quit AE and reopen the PKG. This installer is not Apple Developer ID signed or notarized, so macOS may require per-item approval in Privacy & Security.
 - **Windows x64:** run the Windows x64 EXE. It is currently unsigned, so Windows SmartScreen may show an unrecognized-app warning. A Windows ARM64 installer is still being tested and is not part of this stable release.
 
-Save your AE project and quit After Effects before installing. The installer places the AEShiper companion, AEShiper Glass and AEShiper Paste together. Restart AE and open **Window > Extensions > AEShiper** to activate or manage your license. Users updating from a ZXP installation should use the platform installer; they do not need a separate ZXP step.
+Save your AE project and quit After Effects and Illustrator before installing. The installer places the AEShiper companion, Illustrator panel, AEShiper Glass and AEShiper Paste together. Restart AE and open **Window > Extensions > AEShiper** to activate or manage your license. Users updating from a ZXP installation should use the platform installer; they do not need a separate ZXP step.
 
-## What's new
+## Illustrator to After Effects
 
-- Create Matching Comp now accepts a selected visible frame, group, or image-fill shape in one click.
-- After Ship, Figma shows names of fonts reported missing by Figma or AE while the transfer continues.
-- One-drawing SVG groups preserve their Color Dodge or Soft Light blend for editable shapes.
-- The AE update card can download and check a platform installer for future updates that publish installer metadata.
+Open **Window > Extensions > AEShiper** in Illustrator. Select artwork, choose Current Comp or New Comp, then Ship to AE.
 
-### Earlier 1.1.0 improvements
+- Editable paths, fills, strokes, supported point/area text, linear/circular radial gradients and recognized parametric shapes.
+- Push selection, Split layers or Single layer; optional hierarchy and outer precomp controls.
+- Supported clipping paths, group opacity and blend modes.
+- Mark selected groups as images while leaving siblings editable, or ship each selected root as PNG at 1x–4x. Original Illustrator artwork stays editable.
+
+Requires Illustrator 2025+ and AE 2024+ (mixed text styling requires AE 24.3+). Save the AE project before image transfers. Transparency-panel opacity masks, arbitrary live Appearance effects and unsupported typography require explicit PNG export. This is not a promise of full Illustrator feature parity.
+
+## New Figma text and shape capabilities
+
+- Wrapped lists with editable body lines and marker outlines.
+- Mixed text colors/opacity, linear/radial gradient ranges and richer decorations.
+- Editable angular/diamond gradients, improved radial/affine gradients, smoothed corners and complex-stroke outlines.
+- Nonblocking font notices and unsupported-paint warnings.
+
+Complex paint/effect combinations and media paints retain documented limitations; no full feature-parity claim.
+
+## Other capabilities
 
 - Improved glass edges, inner shadows and clipping in editable shipments.
 - More stable Texture approximation: contained surfaces and no frame-to-frame procedural Noise flicker in the tested scene.
@@ -35,4 +48,4 @@ Artwork, layer data and asset paths stay on your computer through the local `127
 
 ## Updates
 
-Stable releases appear in the AE update card and Figma update notice. Existing 1.1.0 companions open the release page to download the 1.1.1 platform installer. From 1.1.1 onward, the AE card can download and verify a platform installer before opening it after AE quits. Complete the installer and reopen AE. Figma plugin updates are distributed through Community.
+Stable releases appear in the AE update card and Figma update notice. Save and quit AE, download the platform installer, then reopen AE. Figma plugin updates are distributed through Community.

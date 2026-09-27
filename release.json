@@ -1,29 +1,24 @@
 {
   "schemaVersion": 1,
   "product": "AEShiper",
-  "status": "stable",
-  "latestVersion": "1.1.1",
-  "publishedAt": "2026-09-25T19:50:17Z",
-  "releaseUrl": "https://github.com/iboyshanto/AEShiper/releases/tag/v1.1.1",
+  "status": "draft",
+  "latestVersion": "1.2.0",
+  "publishedAt": null,
+  "releaseUrl": "https://github.com/iboyshanto/AEShiper/releases/tag/v1.2.0",
   "ae": {
-    "version": "1.1.1",
-    "downloadUrl": "https://github.com/iboyshanto/AEShiper/releases/tag/v1.1.1",
-    "installers": {
-      "mac": {
-        "url": "https://github.com/iboyshanto/AEShiper/releases/download/v1.1.1/AEShiper-v1.1.1.pkg",
-        "size": 271141,
-        "sha256": "5b248851225f6ad9b4e4ef379d36c054a76f80343465d7ac67903b89059212d7"
-      },
-      "windowsX64": {
-        "url": "https://github.com/iboyshanto/AEShiper/releases/download/v1.1.1/AEShiper-v1.1.1-Windows-x64.exe",
-        "size": 765115,
-        "sha256": "773a9ccc0e0a3c92fdc75fa773aa24bc2eb675a0b1e6980d8b1ca6898d243d5a"
-      }
-    }
+    "version": "1.2.0",
+    "downloadUrl": "https://github.com/iboyshanto/AEShiper/releases/tag/v1.2.0"
   },
   "figma": {
-    "version": "1.1.1",
+    "version": "1.2.0",
     "downloadUrl": "https://www.figma.com/community/plugin/1678017504586586252/aeshiper",
     "communityUrl": "https://www.figma.com/community/plugin/1678017504586586252/aeshiper"
+  },
+  "illustrator": {
+    "version": "1.2.0",
+    "platforms": [
+      "mac",
+      "windows-x64"
+    ]
   }
 }
