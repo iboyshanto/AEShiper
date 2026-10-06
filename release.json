@@ -10,18 +10,18 @@
     "installers": {
       "mac": {
         "url": "https://github.com/iboyshanto/AEShiper/releases/download/v1.5.0/AEShiper-v1.5.0.pkg",
-        "size": 482109,
-        "sha256": "523e6a83c3671aaf7ed65e9887fac7c5bf3eb595b6ad02ead53183c7076d4be0"
+        "size": 484791,
+        "sha256": "8d7bbd839f3b263fabe48f057c13534a5129523f01ed216801b2f5f966418863"
       },
       "macDmg": {
         "url": "https://github.com/iboyshanto/AEShiper/releases/download/v1.5.0/AEShiper-v1.5.0-macOS.dmg",
-        "size": 496973,
-        "sha256": "5c592d79e903f4c8fba99bfc156a46dc3adf312dd755905fd114da9ae545a3b4"
+        "size": 500395,
+        "sha256": "914592058e3f16a7ee7fc25ac6f728c274f885ae8ae004169398ab99469ea858"
       },
       "windowsX64": {
         "url": "https://github.com/iboyshanto/AEShiper/releases/download/v1.5.0/AEShiper-v1.5.0-Windows-x64.exe",
-        "size": 1145404,
-        "sha256": "e7605c0d348f895077d269c3cadd213108ccaa9280192026b3e6e0de070dc550"
+        "size": 1151353,
+        "sha256": "2d285a8ff00dbef53daf98c03956d302b5a205511ca9ad1823d7e3997e8bfc30"
       }
     }
   },
