@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "product": "AEShiper",
-  "status": "published",
+  "status": "stable",
   "latestVersion": "1.6.0",
   "releaseUrl": "https://github.com/iboyshanto/AEShiper/releases/tag/v1.6.0",
   "ae": {
