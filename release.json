@@ -1,27 +1,27 @@
 {
   "schemaVersion": 1,
   "product": "AEShiper",
-  "status": "stable",
-  "latestVersion": "1.5.0",
-  "releaseUrl": "https://github.com/iboyshanto/AEShiper/releases/tag/v1.5.0",
+  "status": "published",
+  "latestVersion": "1.6.0",
+  "releaseUrl": "https://github.com/iboyshanto/AEShiper/releases/tag/v1.6.0",
   "ae": {
-    "version": "1.5.0",
-    "downloadUrl": "https://github.com/iboyshanto/AEShiper/releases/tag/v1.5.0",
+    "version": "1.6.0",
+    "downloadUrl": "https://github.com/iboyshanto/AEShiper/releases/tag/v1.6.0",
     "installers": {
       "mac": {
-        "url": "https://github.com/iboyshanto/AEShiper/releases/download/v1.5.0/AEShiper-v1.5.0.pkg",
-        "size": 484791,
-        "sha256": "8d7bbd839f3b263fabe48f057c13534a5129523f01ed216801b2f5f966418863"
+        "url": "https://github.com/iboyshanto/AEShiper/releases/download/v1.6.0/AEShiper-v1.6.0.pkg",
+        "size": 487870,
+        "sha256": "6dbd62d554a566aed32f62a7a300cda605181ed48c4332e8f4dcc6bdb43bca4f"
       },
       "macDmg": {
-        "url": "https://github.com/iboyshanto/AEShiper/releases/download/v1.5.0/AEShiper-v1.5.0-macOS.dmg",
-        "size": 500395,
-        "sha256": "914592058e3f16a7ee7fc25ac6f728c274f885ae8ae004169398ab99469ea858"
+        "url": "https://github.com/iboyshanto/AEShiper/releases/download/v1.6.0/AEShiper-v1.6.0-macOS.dmg",
+        "size": 503648,
+        "sha256": "6ef37e19398986a00f9fe893498e6898ba0a0e5564976bd4da7095391da97043"
       },
       "windowsX64": {
-        "url": "https://github.com/iboyshanto/AEShiper/releases/download/v1.5.0/AEShiper-v1.5.0-Windows-x64.exe",
-        "size": 1151353,
-        "sha256": "2d285a8ff00dbef53daf98c03956d302b5a205511ca9ad1823d7e3997e8bfc30"
+        "url": "https://github.com/iboyshanto/AEShiper/releases/download/v1.6.0/AEShiper-v1.6.0-Windows-x64.exe",
+        "size": 1158040,
+        "sha256": "6aaedaca91ccb9d34102501905101459410a7cd666c111a9e4489bb28d401ab8"
       }
     }
   },
@@ -31,11 +31,11 @@
     "communityUrl": "https://www.figma.com/community/plugin/1678017504586586252/aeshiper"
   },
   "illustrator": {
-    "version": "1.5.0",
+    "version": "1.6.0",
     "platforms": [
       "mac",
       "windows-x64"
     ]
   },
-  "publishedAt": "2026-10-06T04:45:29Z"
+  "publishedAt": "2026-10-07T02:50:56.689848Z"
 }

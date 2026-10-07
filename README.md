@@ -2,7 +2,7 @@
 
 Bring Figma and supported Illustrator designs into Adobe After Effects as editable layers, organized precomps, raster assets, or a visual reference.
 
-## Install AEShiper 1.5.0
+## Install AEShiper 1.6.0
 
 Get the [AEShiper Figma plugin](https://www.figma.com/community/plugin/1678017504586586252/aeshiper) from Community. Download the matching **After Effects installer for your computer** from [the latest release](https://github.com/iboyshanto/AEShiper/releases/latest):
 
@@ -11,11 +11,12 @@ Get the [AEShiper Figma plugin](https://www.figma.com/community/plugin/167801750
 
 Save your AE project and quit After Effects, Illustrator and Blender before installing. The installer places the AEShiper companion, Illustrator panel, AEShiper Glass, AEShiper Paste and the Blender extension together. Restart AE and open **Window > Extensions > AEShiper** to activate or manage your license. Users updating from a ZXP installation should use the platform installer; they do not need a separate ZXP step.
 
-## What's new in 1.5.0
+## What's new in 1.6.0
 
-- Richer Illustrator transparency, gradient fades, clipping and stroke appearance on macOS.
-- Supported dense Illustrator artwork becomes editable vector batches on macOS.
-- More reliable transfer recovery, cancellation and gradient handling.
+- Streamlined Figma controls, canvas background options and automatic After Effects focus.
+- Improved gradients, rounded clipping, glass, blur and shadows.
+- Clean image joins and separate emoji layers ready to animate.
+- One complete macOS and Windows installer for After Effects, Illustrator and Blender.
 
 ## Ship to Blender
 
