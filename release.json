@@ -2,40 +2,40 @@
   "schemaVersion": 1,
   "product": "AEShiper",
   "status": "stable",
-  "latestVersion": "1.6.0",
-  "releaseUrl": "https://github.com/iboyshanto/AEShiper/releases/tag/v1.6.0",
+  "latestVersion": "1.7.0",
+  "releaseUrl": "https://github.com/iboyshanto/AEShiper/releases/tag/v1.7.0",
   "ae": {
-    "version": "1.6.0",
-    "downloadUrl": "https://github.com/iboyshanto/AEShiper/releases/tag/v1.6.0",
+    "version": "1.7.0",
+    "downloadUrl": "https://github.com/iboyshanto/AEShiper/releases/tag/v1.7.0",
     "installers": {
       "mac": {
-        "url": "https://github.com/iboyshanto/AEShiper/releases/download/v1.6.0/AEShiper-v1.6.0.pkg",
-        "size": 487870,
-        "sha256": "6dbd62d554a566aed32f62a7a300cda605181ed48c4332e8f4dcc6bdb43bca4f"
+        "url": "https://github.com/iboyshanto/AEShiper/releases/download/v1.7.0/AEShiper-v1.7.0.pkg",
+        "size": 501373,
+        "sha256": "823a2044ce0354b1c8627ed804189258d5fb6305d30e26506d4ec944199ea1f6"
       },
       "macDmg": {
-        "url": "https://github.com/iboyshanto/AEShiper/releases/download/v1.6.0/AEShiper-v1.6.0-macOS.dmg",
-        "size": 503648,
-        "sha256": "6ef37e19398986a00f9fe893498e6898ba0a0e5564976bd4da7095391da97043"
+        "url": "https://github.com/iboyshanto/AEShiper/releases/download/v1.7.0/AEShiper-v1.7.0-macOS.dmg",
+        "size": 516947,
+        "sha256": "6e4c1c54930e7ee2c4757ca89f941cbb7eac46f828595b773ddb04158a4d57fa"
       },
       "windowsX64": {
-        "url": "https://github.com/iboyshanto/AEShiper/releases/download/v1.6.0/AEShiper-v1.6.0-Windows-x64.exe",
-        "size": 1158040,
-        "sha256": "6aaedaca91ccb9d34102501905101459410a7cd666c111a9e4489bb28d401ab8"
+        "url": "https://github.com/iboyshanto/AEShiper/releases/download/v1.7.0/AEShiper-v1.7.0-Windows-x64.exe",
+        "size": 1176655,
+        "sha256": "4136ca5d70c7758b56214dd4cb646168472589c79ce34767fc6698590a23868a"
       }
     }
   },
   "figma": {
-    "version": "1.6.0",
+    "version": "1.7.0",
     "downloadUrl": "https://www.figma.com/community/plugin/1678017504586586252/aeshiper",
     "communityUrl": "https://www.figma.com/community/plugin/1678017504586586252/aeshiper"
   },
   "illustrator": {
-    "version": "1.6.0",
+    "version": "1.7.0",
     "platforms": [
       "mac",
       "windows-x64"
     ]
   },
-  "publishedAt": "2026-10-07T02:50:56.689848Z"
+  "publishedAt": "2026-10-09T03:58:26.372139Z"
 }
