@@ -2,7 +2,7 @@
 
 Bring Figma and supported Illustrator designs into Adobe After Effects as editable layers, organized precomps, raster assets, or a visual reference.
 
-## Install AEShiper 1.7.0
+## Install AEShiper 1.8.0
 
 Get the [AEShiper Figma plugin](https://www.figma.com/community/plugin/1678017504586586252/aeshiper) from Community. Download the matching **After Effects installer for your computer** from [the latest release](https://github.com/iboyshanto/AEShiper/releases/latest):
 
@@ -11,16 +11,17 @@ Get the [AEShiper Figma plugin](https://www.figma.com/community/plugin/167801750
 
 Save your AE project and quit After Effects, Illustrator and Blender before installing. The installer places the AEShiper companion, Illustrator panel, AEShiper Glass, AEShiper Paste and the Blender extension together. Restart AE and open **Window > Extensions > AEShiper** to activate or manage your license. Users updating from a ZXP installation should use the platform installer; they do not need a separate ZXP step.
 
-## What's new in 1.7.0
+- Progressive background blur with editable native After Effects effects and blur maps.
+- Improved angular gradients, Noise and Texture support, rounded glass controls and complex image layering.
+- Progressive blur retained on imported images, including cropped and transparent images.
+- Faster layer selection and text setup during shipping, with clearer completion messages.
 
-- A cleaner Figma workspace with quick settings and focused shipping feedback.
-- Refined Blender geometry, edge rounding and scoped post-import controls.
-- Beta 3D workflows for Blender and native After Effects extrusion.
-- Improved Illustrator clipping, fill and stroke matching.
+
+Noise, Texture and blur use editable AE approximations and can differ from Figma.
 
 ## Ship to Blender
 
-Install Blender 4.2 or later, then run the matching AEShiper platform installer. It installs and enables the Blender extension automatically. If you install Blender later, rerun the same AEShiper installer. Open Blender after installation; AEShiper starts its receiver automatically. Keep the licensed AEShiper After Effects background service running. In Figma's AEShiper Settings → General, enable **Blender 3D** at the bottom; the main button becomes **Ship to Blender**. Disable the toggle to return to AE.
+Install Blender 4.2 or later, then run the matching AEShiper platform installer. It installs and enables the Blender extension automatically. If you install Blender later, rerun the same AEShiper installer. Open Blender after installation; AEShiper starts its receiver automatically. Keep the licensed AEShiper After Effects background service running. In Figma's AEShiper Settings, enable **Blender 3D** at the bottom; the main button becomes **Ship to Blender**. Disable the toggle to return to AE.
 
 Supported vectors and text become editable geometry; image textures use planes. Masks and clipping boundaries import as guides. The bundled Blender extension includes its GPL source and license. AE 3D extrusion uses the Cinema 4D renderer.
 
