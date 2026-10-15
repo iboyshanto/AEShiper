@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "product": "AEShiper",
-  "status": "draft",
+  "status": "stable",
   "latestVersion": "1.8.2",
   "releaseUrl": "https://github.com/iboyshanto/AEShiper/releases/tag/v1.8.2",
   "ae": {
@@ -36,5 +36,6 @@
       "mac",
       "windows-x64"
     ]
-  }
+  },
+  "publishedAt": "2026-10-15T12:46:09.502805+00:00"
 }
