@@ -1,41 +1,40 @@
 {
   "schemaVersion": 1,
   "product": "AEShiper",
-  "status": "stable",
-  "latestVersion": "1.8.1",
-  "releaseUrl": "https://github.com/iboyshanto/AEShiper/releases/tag/v1.8.1",
+  "status": "draft",
+  "latestVersion": "1.8.2",
+  "releaseUrl": "https://github.com/iboyshanto/AEShiper/releases/tag/v1.8.2",
   "ae": {
-    "version": "1.8.1",
-    "downloadUrl": "https://github.com/iboyshanto/AEShiper/releases/tag/v1.8.1",
+    "version": "1.8.2",
+    "downloadUrl": "https://github.com/iboyshanto/AEShiper/releases/tag/v1.8.2",
     "installers": {
       "mac": {
-        "url": "https://github.com/iboyshanto/AEShiper/releases/download/v1.8.1/AEShiper-v1.8.1.pkg",
-        "size": 507967,
-        "sha256": "8236c30516edccdd255faadb27159bada6ec7bad74e1e3592f0783d96214cbf9"
+        "url": "https://github.com/iboyshanto/AEShiper/releases/download/v1.8.2/AEShiper-v1.8.2.pkg",
+        "size": 511289,
+        "sha256": "e393bbd63d46e60c551af21053b6faf1206fd7281adb307ac6fef9bcb3918a67"
       },
       "macDmg": {
-        "url": "https://github.com/iboyshanto/AEShiper/releases/download/v1.8.1/AEShiper-v1.8.1-macOS.dmg",
-        "size": 523414,
-        "sha256": "957cc7bc22a233893070b1f4a9c7296a5f633cf67289174696247ad3e4e8a193"
+        "url": "https://github.com/iboyshanto/AEShiper/releases/download/v1.8.2/AEShiper-v1.8.2-macOS.dmg",
+        "size": 526485,
+        "sha256": "ff5eb5d1c80cdc6faa120ee58e9ed474dd4f59c362e7a09542ad1295288c32fe"
       },
       "windowsX64": {
-        "url": "https://github.com/iboyshanto/AEShiper/releases/download/v1.8.1/AEShiper-v1.8.1-Windows-x64.exe",
-        "size": 1190967,
-        "sha256": "c0edefb164f069f67ab0570454a3442953e8d03467ce53a583807ad57f2b4043"
+        "url": "https://github.com/iboyshanto/AEShiper/releases/download/v1.8.2/AEShiper-v1.8.2-Windows-x64.exe",
+        "size": 1197152,
+        "sha256": "2f8f1854220db3f17217e427acd1f679e2fb52c0ce68de78ac144032770d394a"
       }
     }
   },
   "figma": {
-    "version": "1.8.1",
+    "version": "1.8.2",
     "downloadUrl": "https://www.figma.com/community/plugin/1678017504586586252/aeshiper",
     "communityUrl": "https://www.figma.com/community/plugin/1678017504586586252/aeshiper"
   },
   "illustrator": {
-    "version": "1.8.1",
+    "version": "1.8.2",
     "platforms": [
       "mac",
       "windows-x64"
     ]
-  },
-  "publishedAt": "2026-10-15T07:20:05.291073Z"
+  }
 }
