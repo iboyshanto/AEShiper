@@ -2,9 +2,9 @@
 
 Bring Figma and supported Illustrator designs into Adobe After Effects as editable layers, organized precomps, raster assets, or a visual reference.
 
-## Install AEShiper 1.8.3
+## Install AEShiper 1.9.0
 
-Improved license-status reliability and recovery guidance. Existing lifetime keys remain valid. Update the companion and restart After Effects; manage computers at [My account](https://aeshiper.com/account).
+Compact Figma controls, editable reconstruction of supported Illustrator gradients and grain, repaired AE foreground handoff, and update notices before activation. Update the companion and Figma plugin together.
 
 Get the [AEShiper Figma plugin](https://www.figma.com/community/plugin/1678017504586586252/aeshiper) from Community. Download the matching **After Effects installer for your computer** from [the latest release](https://github.com/iboyshanto/AEShiper/releases/latest):
 
@@ -13,15 +13,14 @@ Get the [AEShiper Figma plugin](https://www.figma.com/community/plugin/167801750
 
 Save your AE project and quit After Effects, Illustrator and Blender before installing. The installer places the AEShiper companion, Illustrator panel, AEShiper Glass, AEShiper Paste and the Blender extension together. Restart AE and open **Window > Extensions > AEShiper** to activate or manage your license. Users updating from a ZXP installation should use the platform installer; they do not need a separate ZXP step.
 
-- One Ship is one Undo, with complete Redo and safer cancellation/failure recovery.
-- Improved host recovery for Windows shipping errors.
-- Progressive background blur with editable native After Effects effects and blur maps.
-- Improved angular gradients, Noise and Texture support, rounded glass controls and complex image layering.
-- Progressive blur retained on imported images, including cropped and transparent images.
-- Faster layer selection and text setup during shipping, with clearer completion messages.
+## New in 1.9.0
 
+- Compact Figma workspace with destination controls up front and quick settings close at hand.
+- Supported Illustrator gradients and grain reconstructed with editable shapes, compositions and native effects.
+- Improved Bring AE forward handoff and large Illustrator clipboard handling.
+- Update notices and download pages available before activation.
 
-Noise, Texture and blur use editable AE approximations and can differ from Figma.
+Editable reconstruction may differ in grain and antialiasing. Unsupported appearances require an explicit PNG choice; ordinary Ship never silently rasterizes them.
 
 ## Ship to Blender
 
