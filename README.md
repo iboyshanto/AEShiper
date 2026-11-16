@@ -2,9 +2,9 @@
 
 Bring Figma and supported Illustrator designs into Adobe After Effects as editable layers, organized precomps, raster assets, or a visual reference.
 
-## Install AEShiper 1.9.0
+## Install AEShiper 1.10.0
 
-Compact Figma controls, editable reconstruction of supported Illustrator gradients and grain, repaired AE foreground handoff, and update notices before activation. Update the companion and Figma plugin together.
+Bring supported Figma Motion animations into After Effects as editable layers and keyframes. Separate update notices identify the Figma plugin and the After Effects companion.
 
 Get the [AEShiper Figma plugin](https://www.figma.com/community/plugin/1678017504586586252/aeshiper) from Community. Download the matching **After Effects installer for your computer** from [the latest release](https://github.com/iboyshanto/AEShiper/releases/latest):
 
@@ -13,14 +13,11 @@ Get the [AEShiper Figma plugin](https://www.figma.com/community/plugin/167801750
 
 Save your AE project and quit After Effects, Illustrator and Blender before installing. The installer places the AEShiper companion, Illustrator panel, AEShiper Glass, AEShiper Paste and the Blender extension together. Restart AE and open **Window > Extensions > AEShiper** to activate or manage your license. Users updating from a ZXP installation should use the platform installer; they do not need a separate ZXP step.
 
-## New in 1.9.0
+## New in 1.10.0
 
-- Compact Figma workspace with destination controls up front and quick settings close at hand.
-- Supported Illustrator gradients and grain reconstructed with editable shapes, compositions and native effects.
-- Improved Bring AE forward handoff and large Illustrator clipboard handling.
-- Update notices and download pages available before activation.
-
-Editable reconstruction may differ in grain and antialiasing. Unsupported appearances require an explicit PNG choice; ordinary Ship never silently rasterizes them.
+- Transfer supported Figma Motion animations as editable layers and keyframes.
+- See separate update notices with direct links for the Figma plugin and the After Effects companion.
+- Update the desktop companion with the installer and the Figma plugin through Community.
 
 ## Ship to Blender
 
