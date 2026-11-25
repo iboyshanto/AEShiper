@@ -2,7 +2,7 @@
 
 Bring Figma and supported Illustrator designs into Adobe After Effects as editable layers, organized precomps, raster assets, or a visual reference.
 
-## Install AEShiper 1.11.0
+## Install AEShiper 1.12.0
 
 Bring supported Figma Motion animations into After Effects as editable layers and keyframes. Separate update notices identify the Figma plugin and the After Effects companion.
 
@@ -13,10 +13,10 @@ Get the [AEShiper Figma plugin](https://www.figma.com/community/plugin/167801750
 
 Save your AE project and quit After Effects, Illustrator and Blender before installing. The installer places the AEShiper companion, Illustrator panel, AEShiper Glass, AEShiper Paste and the Blender extension together. Restart AE and open **Window > Extensions > AEShiper** to activate or manage your license. Users updating from a ZXP installation should use the platform installer; they do not need a separate ZXP step.
 
-## New in 1.11.0
+## New in 1.12.0
 
-- Keep more Figma hierarchy as named precomps when using Ship and Organize.
-- Preserve nested precomp bounds and editable height keyframes for supported Auto Layout rectangles.
+- Motion Import accepts HTML ZIPs up to 512 MiB and supports editable imports for supported Lottie, dotLottie, and animated SVG files.
+- Figma placement and Design Scale feedback use the matching Figma plugin update.
 
 ## Ship to Blender
 
